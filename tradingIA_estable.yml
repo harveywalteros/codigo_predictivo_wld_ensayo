@@ -1,0 +1,30 @@
+name: tradingIA
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pandas
+  - numpy
+  - scikit-learn
+  - tensorflow
+  - pytorch
+  - statsmodels
+  - matplotlib
+  - seaborn
+  - scipy
+  - yfinance
+  - ccxt
+  - websocket-client
+  - ta-lib
+  - arch
+  - pip
+  - pip:
+    - prophet
+    - mfdfa
+    - pyaf
+    - Fractal
+    - Fractalshades
+    - manim
+    - taichi
+    - jax
